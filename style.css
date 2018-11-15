@@ -1,4 +1,6 @@
-body{
-	background-color: black;
-	color:white;
+ul{
+	list-style: none;
+}
+ul li{
+	display: inline;padding:10px;
 }
