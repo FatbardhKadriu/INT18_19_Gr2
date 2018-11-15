@@ -3,4 +3,5 @@ ul{
 }
 ul li{
 	display: inline;padding:10px;
+	font-size: 25px;
 }
