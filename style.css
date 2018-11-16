@@ -26,7 +26,6 @@
 .main-nav-2 li.active a
 {
 	color: red;
-	border: 1px solid red;
 }
 .main-nav-2 li a:hover
 {
@@ -69,6 +68,6 @@
 }
 .row1
 {
-	max-width: 1300px;
+	max-width: 1380px;
 	margin:auto;
 }
