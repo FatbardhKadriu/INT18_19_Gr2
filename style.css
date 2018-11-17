@@ -71,7 +71,15 @@
 {
 	margin:auto;
 }
-.pjesa-2 a.img:hover
+.rss-list
 {
-	border:1px solid black;
+	float:right;
+	list-style: none;
+}
+.rss-list li{
+	display: inline-block;
+}
+.rss-list li a:hover
+{
+	color:darkorange;
 }
