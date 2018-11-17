@@ -41,6 +41,7 @@
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
+  border-radius: 40px;
 }
 .form button:hover,.form button:active,.form button:focus {
   background: #43A047;

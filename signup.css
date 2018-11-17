@@ -133,6 +133,7 @@ h1 {
   margin: 3em auto;
   background: rgba(0, 0, 0, 0.18);
   background-size: cover;
+  border-radius: 40px;
 }
 
 .agileits-top {
@@ -157,6 +158,7 @@ input[type="text"], input[type="email"], input[type="password"] {
   background-repeat: no-repeat;
   color: #fff;
   font-family: 'Roboto', sans-serif;
+  border-radius: 40px;
 }
 
 input.email, input.text.pass {
@@ -211,6 +213,7 @@ input[type="submit"] {
   width: 100%;
   margin: 2em 0;
   letter-spacing: 4px;
+  border-radius: 40px;
 }
 
 input[type="submit"]:hover {
