@@ -71,3 +71,7 @@
 {
 	margin:auto;
 }
+.pjesa-2 a.img:hover
+{
+	border:1px solid black;
+}
