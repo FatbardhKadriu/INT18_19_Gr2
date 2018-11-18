@@ -74,18 +74,7 @@
 	max-width: 1680px;
 	margin:auto;
 }
-.rss-list
-{
-	float:right;
-	list-style: none;
-}
-.rss-list li{
-	display: inline-block;
-}
-.rss-list li a:hover
-{
-	color:darkorange;
-}
+
 .form{
 	background-color: #ededed;
 	border-radius: 5px;
@@ -157,3 +146,24 @@ a:visited{
  font-weight: bold;
  margin-top: -8px;
 }﻿
+.pjesa2{
+	
+	float:left;
+	list-style: none;
+	margin-top: 30px;
+	background-color: #2B1B1B;
+	padding: 100px;
+	width: 100%;
+}
+.rss-list
+{
+	float:right;
+	list-style: none;
+}
+.rss-list li{
+	display: inline-block;
+}
+.rss-list li a:
+{
+	color:darkorange;
+}
