@@ -88,3 +88,12 @@
 	border-radius: 5px;
 	padding: 4px;
 }
+a:hover{
+	color:red;
+}
+a:active{
+	color:red;
+}
+a:visited{
+	color:brown;
+}
