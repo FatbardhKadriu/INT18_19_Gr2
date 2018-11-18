@@ -83,3 +83,8 @@
 {
 	color:darkorange;
 }
+.form{
+	background-color: #ededed;
+	border-radius: 5px;
+	padding: 4px;
+}
