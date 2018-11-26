@@ -165,23 +165,6 @@ input.email, input.text.pass {
   margin: 2em 0;
 }
 
-.text:focus, .text:valid {
-  box-shadow: none;
-  outline: none;
-  background-position: 0 0;
-}
-
-.text:focus::-webkit-input-placeholder, .text:valid::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: .9em;
-  -webkit-transform: translateY(-30px);
-  -moz-transform: translateY(-30px);
-  -o-transform: translateY(-30px);
-  -ms-transform: translateY(-30px);
-  transform: translateY(-30px);
-  visibility: visible !important;
-}
-
 ::-webkit-input-placeholder {
   color: #fff;
   font-weight: 100;
@@ -216,31 +199,6 @@ input[type="submit"] {
   border-radius: 40px;
 }
 
-input[type="submit"]:hover {
-  -webkit-transition: .5s all;
-  -moz-transition: .5s all;
-  -o-transition: .5s all;
-  -ms-transition: .5s all;
-  transition: .5s all;
-  background: #8DC26F;
-}
-
-.agileits-top p {
-  font-size: 1em;
-  color: #fff;
-  text-align: center;
-  letter-spacing: 1px;
-  font-weight: 300;
-}
-
-.agileits-top p a {
-  color: #fff;
-  -webkit-transition: .5s all;
-  -moz-transition: .5s all;
-  transition: .5s all;
-  font-weight: 400;
-}
-
 
 
 /*-- //main --*/
@@ -252,56 +210,6 @@ input[type="submit"]:hover {
   cursor: pointer;
   position: relative;
 }
-
-
-
-
-
-
-@keyframes rippling {
-  50% {
-    border-left-color: #fff;
-  }
-
-  100% {
-    border-bottom-color: #fff;
-    border-left-color: #fff;
-  }
-}
-
-/*-- //checkbox --*/
-/*-- copyright --*/
-.colorlibcopy-agile {
-  margin: 2em 0 1em;
-  text-align: center;
-}
-
-.colorlibcopy-agile p {
-  font-size: .9em;
-  color: #fff;
-  line-height: 1.8em;
-  letter-spacing: 1px;
-  font-weight: 100;
-}
-
-.colorlibcopy-agile p a {
-  color: #fff;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  -ms-transition: 0.5s all;
-}
-
-
-/*-- //copyright --*/
-.wrapper {
-  position: relative;
-  overflow: hidden;
-}
-
-
-
 
 
 
