@@ -1,6 +1,5 @@
 .top1 li a
 {
-	background-color: red;
 	color: white;
 	text-decoration: none;
 	padding: 2px 5px;
@@ -11,7 +10,12 @@
 {
 	float: left;
 	list-style: none;
-	margin-top: 30px;
+	margin-top: 0px;
+	background-color: #C70C0C;
+	padding: 20px;
+	width: 100%;
+	display: inline-block;
+
 }
 .kerko-box
 {
@@ -27,4 +31,8 @@
 .row1
 {
 	margin:auto;
+}
+.top1 li.active a
+{
+	color: black;
 }
