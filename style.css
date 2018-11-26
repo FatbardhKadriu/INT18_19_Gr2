@@ -80,6 +80,9 @@
 	border-radius: 5px;
 	padding: 4px;
 }
+.form1{
+	color:red;
+}
 a:hover{
 	color:red;
 }
