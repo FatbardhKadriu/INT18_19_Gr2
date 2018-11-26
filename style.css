@@ -83,6 +83,13 @@
 .form1{
 	color:red;
 }
+.form2
+{
+	background-color: #ededed;
+	border-radius: 5px;
+	padding: 4px;
+	color:red;
+}
 a:hover{
 	color:red;
 }
