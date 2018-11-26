@@ -6,7 +6,7 @@
 {
 	float:left;
 	list-style: none;
-	margin-top: 30px;
+	margin-top: 0px;
 	background-color: #C70C0C;
 	padding: 20px;
 	width: 100%;
@@ -92,7 +92,7 @@ a:visited{
 
 .kerko-box {
  position: absolute;
- top: 7.3%;
+ top: 3.8%;
  left: 91.5%;
  transform: translate(-50%, -50%);
  background: white;
