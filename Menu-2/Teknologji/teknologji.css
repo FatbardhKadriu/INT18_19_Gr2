@@ -1,0 +1,88 @@
+.main-nav-1
+{
+	float:left;
+	list-style: none;
+	margin-top: 0px;
+	background-color: #C70C0C;
+	padding: 20px;
+	width: 100%;
+}
+.main-nav-1 li
+{
+	display: inline-block;
+}
+.main-nav-1 li a
+{
+	color:white;
+	text-decoration: none;
+	padding: 2px 5px;
+	font-family: "Roboto", sans-serif;
+	font-size: 13px;
+
+}
+.main-nav-1 li.active a
+{
+	color: black;
+}
+.main-nav-1 li a:hover
+{
+	color:black;
+	padding: 10px;
+	border-radius: 10px;
+	font-size:16px;
+}
+.row1
+{
+	margin:auto;
+}
+.main-nav-2
+{
+	float:left;
+	list-style: none;
+	margin-top: 30px;
+	background-color: #2B1B1B;
+	padding: 18px;
+	width: 100%;
+	border-radius: 5px;
+}
+.main-nav-2 li
+{
+	display: inline-block;
+}
+.main-nav-2 li a
+{
+	color:white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+}
+.main-nav-2 li.active a
+{
+	color: red;
+}
+.main-nav-2 li a:hover
+{
+	color:red;
+}
+.row2
+{
+	max-width: 1680px;
+	margin:auto;
+}
+
+.form{
+	background-color: #ededed;
+	border-radius: 5px;
+	padding: 4px;
+}
+.form1{
+	color:red;
+}
+.form2
+{
+	background-color: #ededed;
+	border-radius: 5px;
+	padding: 4px;
+	color:red;
+}
