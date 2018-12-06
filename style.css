@@ -120,6 +120,7 @@ a:visited{
 }
 
 .kerko-box:hover > .kerko-btn {
+ background: #B00808;
  color: white;
 }
 
@@ -179,4 +180,152 @@ a:visited{
 .rss-list li a:
 {
 	color:darkorange;
+}
+
+
+.c1 {
+	position: absolute;
+	top:130px;
+	left:1150px;
+ 	float: right;
+ 	width: 30px;
+ 	height: 30px;
+ 	border-radius: 50%;
+ 	background: black;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	transition: 0.4s;
+ 	cursor: pointer;
+
+}
+
+.c1 > i {
+	font-size: 20px;
+	position: absolute;
+	color: white;
+
+}
+.c1:hover {
+ background: orange;
+ color: white;
+}
+
+
+.c2 {
+	position: absolute;
+	top:130px;
+	left:1230px;
+ 	float: right;
+ 	width: 30px;
+ 	height: 30px;
+ 	border-radius: 50%;
+ 	background: black;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	transition: 0.4s;
+ 	cursor: pointer;
+
+}
+
+.c2 > i {
+	font-size: 20px;
+	position: absolute;
+	color: white;
+
+}
+.c2:hover {
+ background: orange;
+ color: white;
+}
+
+
+
+.c3 {
+	position: absolute;
+	top:130px;
+	left:1270px;
+ 	float: right;
+ 	width: 30px;
+ 	height: 30px;
+ 	border-radius: 50%;
+ 	background: black;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	transition: 0.4s;
+ 	cursor: pointer;
+
+}
+
+.c3 > i {
+	font-size: 20px;
+	position: absolute;
+	color: white;
+
+}
+.c3:hover {
+ background: orange;
+ color: white;
+}
+
+
+
+.c4 {
+	position: absolute;
+	top:130px;
+	left:1310px;
+ 	float: right;
+ 	width: 30px;
+ 	height: 30px;
+ 	border-radius: 50%;
+ 	background: black;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	transition: 0.4s;
+ 	cursor: pointer;
+
+}
+
+.c4 > i {
+	font-size: 20px;
+	position: absolute;
+	color: white;
+
+}
+.c4:hover {
+ background: orange;
+ color: white;
+}
+
+
+
+.c5 {
+	position: absolute;
+	top:130px;
+	left:1190px;
+ 	float: right;
+ 	width: 30px;
+ 	height: 30px;
+ 	border-radius: 50%;
+ 	background: black;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	transition: 0.4s;
+ 	cursor: pointer;
+
+}
+
+.c5 > i {
+	font-size: 20px;
+	position: absolute;
+	color: white;
+
+}
+.c5:hover {
+ background: orange;
+ color: white;
 }
