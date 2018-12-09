@@ -1,3 +1,7 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 .top1 li a
 {
 	color: white;
@@ -31,8 +35,53 @@
 .row1
 {
 	margin:auto;
+
 }
 .top1 li.active a
 {
 	color: black;
+}
+
+.kerko-btn{
+	position: absolute;
+	top:5px;
+	left: 22px;
+	color: #e84118;
+	float: right;
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
+	background: #C70C0C;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+ 	color: white;
+ 	cursor: pointer;
+
+}
+.kerko-btn > i {
+	font-size: 12px;
+}
+.kerko-txt {
+
+ border: none;
+ background: none;
+ outline: none;
+ padding: 0px;
+ color: white;
+ font-size: 14px;
+ transition: 0.4s;
+ line-height: 40px;
+ width: 240px;
+ font-weight: bold;
+ margin-top: -8px;
+}﻿
+.kerko-box:hover > .kerko-txt {
+ color: black;
+}
+
+.kerko-box:hover > .kerko-btn {
+ background: #B00808;
+ color: white;
 }
