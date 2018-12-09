@@ -104,3 +104,24 @@
  background: #B00808;
  color: white;
 }
+.top2{
+	 float:right;
+	 list-style: none;
+}
+.top2 li
+{
+	display:inline-block;
+}
+.top2 li a:
+{
+	color:darkorange;
+}
+.top3/1{
+	display: inline-block;
+}
+.top3{
+	margin: auto;
+	max-width: 1680px;
+	float: right;
+	list-style: none;
+}
