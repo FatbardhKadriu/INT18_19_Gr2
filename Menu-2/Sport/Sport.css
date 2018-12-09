@@ -116,12 +116,34 @@
 {
 	color:darkorange;
 }
-.top3/1{
+.top3 li{
 	display: inline-block;
+}
+.top3 li.active a{
+	color: red;
+}
+.top3 li a:hover
+{
+	color:red;
+}
+.top3 li a{
+	color: white;
+	text-decoration: none;
+}
+
+.row2
+{
+	max-width: 1680px;
+	margin:auto;
 }
 .top3{
 	margin: auto;
 	max-width: 1680px;
 	float: right;
 	list-style: none;
+	margin-top: 30px;
+	background-color: #2B1B1B;
+	padding: 18px;
+	width: 98%;
+	border-radius: 5px;
 }
