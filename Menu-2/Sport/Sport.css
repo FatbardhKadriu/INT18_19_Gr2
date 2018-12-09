@@ -129,6 +129,9 @@
 .top3 li a{
 	color: white;
 	text-decoration: none;
+	padding: 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
 }
 
 .row2
@@ -146,4 +149,6 @@
 	padding: 18px;
 	width: 98%;
 	border-radius: 5px;
+	left: 2%;
+
 }
