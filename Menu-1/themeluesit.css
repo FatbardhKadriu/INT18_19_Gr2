@@ -1,0 +1,36 @@
+html{
+	background: url(5.jpg);
+	background-size: cover;
+	font-family: 'Helvetica Neue', sans-serif;}
+
+
+.prof-box{
+	width: 400px;
+	height: 400px;
+	background: rgb(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin:0 auto;
+	margin-top: 130px;
+	text-align: center;
+}
+.prof-pic{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+h1{
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size: 40px;
+}
+p{
+	font-weight: 200;
+	letter-spacing: 1;
+}
+.social-icons{
+	font-size: 30px;
+}
+.social-icons a{
+	color:white;
+}
