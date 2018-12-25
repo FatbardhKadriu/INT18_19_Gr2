@@ -18,6 +18,7 @@ a{
 .main-nav-1 li
 {
 	display: inline-block;
+
 }
 .main-nav-1 li a
 {
@@ -330,4 +331,9 @@ a:visited{
 .newLine{
 	width: 450px;
 	word-wrap: break-word;
+}
+#wholepage{
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
 }
