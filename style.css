@@ -435,7 +435,7 @@ a:visited{
 	float:left;
 	list-style: none;
 	margin-top: 30px;
-	background-color: #0E9789;
+	background-color: #660033;
 	padding: 18px;
 	width: 100%;
 	border-radius: 5px;
@@ -459,7 +459,5 @@ a:visited{
 .main-nav-2-sport li a:hover
 {
 
-	color:#660033;
-
-
+	color:#FF00FF;
 }
