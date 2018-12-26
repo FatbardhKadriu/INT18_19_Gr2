@@ -429,3 +429,34 @@ a:visited{
 
 	color:#808EE5;
 }
+.main-nav-2-sport
+{
+	float:left;
+	list-style: none;
+	margin-top: 30px;
+	background-color: #0E9789;
+	padding: 18px;
+	width: 100%;
+	border-radius: 5px;
+}
+.main-nav-2-sport li
+{
+	display: inline-block;
+}
+.main-nav-2-sport li a
+{
+	color:white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+}
+.main-nav-2-sport li.active a
+{
+	color: red;
+}
+.main-nav-2-sport li a:hover
+{
+
+	color:#808EE5;
+}
