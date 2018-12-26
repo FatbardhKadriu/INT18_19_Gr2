@@ -337,3 +337,94 @@ a:visited{
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.main-nav-2-ekonomi
+{
+	float:left;
+	list-style: none;
+	margin-top: 30px;
+	background-color: green;
+	padding: 18px;
+	width: 100%;
+	border-radius: 5px;
+}
+.main-nav-2-ekonomi li
+{
+	display: inline-block;
+}
+.main-nav-2-ekonomi li a
+{
+	color:white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+}
+.main-nav-2-ekonomi li.active a
+{
+	color: red;
+}
+.main-nav-2-ekonomi li a:hover
+{
+	color:red;
+}
+.main-nav-2-teknologji
+{
+	float:left;
+	list-style: none;
+	margin-top: 30px;
+	background-color: #2B1B1B;
+	padding: 18px;
+	width: 100%;
+	border-radius: 5px;
+}
+.main-nav-2-teknologji li
+{
+	display: inline-block;
+}
+.main-nav-2-teknologji li a
+{
+	color:white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+}
+.main-nav-2-teknologji li.active a
+{
+	color: red;
+}
+.main-nav-2-teknologji li a:hover
+{
+	color:red;
+}
+.main-nav-2-fun
+{
+	float:left;
+	list-style: none;
+	margin-top: 30px;
+	background-color: #2B1B1B;
+	padding: 18px;
+	width: 100%;
+	border-radius: 5px;
+}
+.main-nav-2-fun li
+{
+	display: inline-block;
+}
+.main-nav-2-fun li a
+{
+	color:white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+}
+.main-nav-2-fun li.active a
+{
+	color: red;
+}
+.main-nav-2-fun li a:hover
+{
+	color:red;
+}
