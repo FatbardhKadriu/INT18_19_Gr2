@@ -1,5 +1,5 @@
 html{
-	background: url(5.jpg);
+	background: url(Images/5.jpg);
 	background-size: cover;
 	font-family: 'Helvetica Neue', sans-serif;}
 
@@ -40,8 +40,8 @@ p{
 	border-top: 1px solid white;
 }
 .list{
-	width: 100%;
-	padding: 50px;
+	
+	padding: 0px;
 }
 .list li
 {
@@ -49,8 +49,8 @@ p{
 }
 .div1
 {
-	width: 1000px;
-	height: 350px;
+	width: 900px;
+	height: 250px;
 	background: rgb(0,0,0,0.4);
 	padding: 40px;
 	color: white;
