@@ -12,7 +12,7 @@ a{
 	margin-top: 0px;
 	background-color: #C70C0C;
 	padding: 20px;
-	width: 100%;
+	width: 1500px;
 	margin-top: 3px;
 }
 .main-nav-1 li
@@ -108,7 +108,7 @@ a:visited{
 .kerko-box {
  position: absolute;
  top: 3.8%;
- left: 91.5%;
+ left: 87.5%;
  transform: translate(-50%, -50%);
  background: white;
  height: 20px;
@@ -153,7 +153,7 @@ a:visited{
  background: none;
  outline: none;
  padding: 0px;
- color: white;
+ color: black;
  font-size: 14px;
  transition: 0.4s;
  line-height: 40px;
@@ -185,7 +185,7 @@ a:visited{
 .c1 {
 	position: absolute;
 	top:130px;
-	left:1270px;
+	left:1190px;
  	float: right;
  	width: 30px;
  	height: 30px;
@@ -214,7 +214,7 @@ a:visited{
 .c2 {
 	position: absolute;
 	top:130px;
-	left:1350px;
+	left:1270px;
  	float: right;
  	width: 30px;
  	height: 30px;
@@ -244,7 +244,7 @@ a:visited{
 .c3 {
 	position: absolute;
 	top:130px;
-	left:1390px;
+	left:1310px;
  	float: right;
  	width: 30px;
  	height: 30px;
@@ -274,7 +274,7 @@ a:visited{
 .c4 {
 	position: absolute;
 	top:130px;
-	left:1430px;
+	left:1350px;
  	float: right;
  	width: 30px;
  	height: 30px;
@@ -303,8 +303,10 @@ a:visited{
 
 .c5 {
 	position: absolute;
+	
+	
 	top:130px;
-	left:1310px;
+	left:1230px;
  	float: right;
  	width: 30px;
  	height: 30px;

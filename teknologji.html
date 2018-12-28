@@ -2,6 +2,7 @@
 <html>
 <head>
   <script src="javascript.js"></script>
+  <link rel="stylesheet" href="teknologji.css" >
 	<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <title>Tekonologji</title>
@@ -22,7 +23,8 @@
 </ul>
 </div>
 <div id="wholepage">
-<h1 style="font-size: 70px;margin-left:60px;">TEKNOLOGJI
+<h1 id="tech" style="font-size: 70px; margin-left:50px;">TEKNOLOGJI
+	<h2 id="lajme" style="margin-left: 60px;">Per lajme me te shpejta</h2>
 <ul class="rss-list">
 	<li><a href="https://www.linkedin.com" class="c1" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
 	<li><a href="https://www.pinterest.com" class="c2" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
@@ -31,9 +33,8 @@
     <li><a href="https://www.twitter.com" class="c5" target="_blank"><i class="fab fa-twitter"></i></a></li>
 </ul> 
 </h1>
-<br/>
-<h2 style="margin-left: 60px;">Per lajme me te shpejta</h2>
-<div class="row2">
+
+
 <ul class="main-nav-2-teknologji">
 <li><a href="index.html">FAQJA KRYESORE</a></li>
 <li><a href="sport.html">SPORT</a></li>
@@ -43,3 +44,41 @@
 <li><a href="#">PROJEKTI</a></li>
 </ul>
 </div>
+<script type="text/javascript">
+var currentTime = new Date().getHours();
+if (7 <= currentTime && currentTime < 20) {
+    if (document.body) {
+        document.body.background = "Images/day.jpg";
+    }
+}
+else {
+    if (document.body) {
+        document.body.background = "Images/night.jpg";
+        document.getElementById("tech").style.color="#E97F22";
+        document.getElementById("lajme").style.color="#E97F22";
+        document.body.style.color="white";
+    }
+}
+
+</script>
+<br>
+
+<table border="1px" cellspacing="40px"  >
+	<tr>
+		<td>
+<h3>Shikoni prezantimin official e A9 nga Samsung</h3>
+</td>
+<td><h3>&emsp;Shikoni prezantimin official te Galaxy Note 9</h3></td>
+<td><h3>Shikoni prezantimin official te IPhone X</h3></td></tr></table>
+<iframe style="position:absolute; top: 350px;right:30px; left: 30px; "  width="420" height="315" 
+src="https://www.youtube.com/embed/9dkne6Jr_18"> 
+</iframe>
+<iframe style="position:absolute; top: 350px;right:60px; left: 600px; "  width="420" height="315" 
+src="https://www.youtube.com/embed/9dkne6Jr_18"> 
+</iframe>
+<iframe style="position:absolute; top: 350px;right:30px; left: 850px; "  width="420" height="315" 
+src="https://www.youtube.com/embed/9dkne6Jr_18"> 
+</iframe>
+</div>
+</body>
+</html>
