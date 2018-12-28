@@ -23,8 +23,8 @@
 </ul>
 </div>
 <div id="wholepage">
-<h1 style="font-size: 70px; margin-left:50px;">TEKNOLOGJI
-	<h2 style="margin-left: 60px;">Per lajme me te shpejta</h2>
+<h1 id="tech" style="font-size: 70px; margin-left:50px;">TEKNOLOGJI
+	<h2 id="lajme" style="margin-left: 60px;">Per lajme me te shpejta</h2>
 <ul class="rss-list">
 	<li><a href="https://www.linkedin.com" class="c1" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
 	<li><a href="https://www.pinterest.com" class="c2" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
@@ -54,6 +54,8 @@ if (7 <= currentTime && currentTime < 20) {
 else {
     if (document.body) {
         document.body.background = "Images/night.jpg";
+        document.getElementById("tech").color="white";
+        document.getElementById("lajme").color="white";
     }
 }
 
