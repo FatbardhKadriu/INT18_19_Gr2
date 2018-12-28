@@ -33,14 +33,3 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.grad
-{
-
-
-   height: 1000px; width: 1400px;
-      background: -webkit-linear-gradient(left,red,blue);
-      background: -o-linear-gradient(left,red,blue)
-      background: -moz-linear-gradient(left,red,blue)
-
-      background: linear-gradient(left,red,blue);
-}
