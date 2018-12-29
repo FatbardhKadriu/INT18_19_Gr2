@@ -463,3 +463,9 @@ a:visited{
 
 	color:#FF00FF;
 }
+#RM
+{
+	float: right;
+	position: absolute;
+
+}
