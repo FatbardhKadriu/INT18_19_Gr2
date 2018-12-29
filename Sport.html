@@ -6,7 +6,21 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <title>Sport</title>
 </head>
-<body >
+<body onload="setInterval(changeColor,1000)">
+	<script type="text/javascript">
+		function changeColor()
+		{
+			var x = document.getElementById("a");
+			if (x.style.color=="yellow")
+				x.style.color="red";
+			else if (x.style.color=="red")
+				x.style.color="green";
+			else if (x.style.color=="green")
+				x.style.color="blue";
+			else
+				x.style.color="red";
+		}
+	</script>
 		<div class="row1">
 			  <div class="kerko-box">
    <input type="text" name="" class="kerko-txt" placeholder="    Kërko..."/>
@@ -32,7 +46,7 @@
 </ul> 
 </h1>
 <br/>
-<h2 style="margin-left: 60px;">Per lajme me te shpejta</h2>
+<h2 id="a" style="margin-left: 60px; ">Per lajme me te shpejta</h2>
 <div class="row2">
 <ul class="main-nav-2-sport">
 <li><a href="index.html">FAQJA KRYESORE</a></li>
