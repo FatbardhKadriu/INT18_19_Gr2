@@ -1,52 +1,55 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-	<title>Sport</title>
-</head>
-<body<head>
-<!--kodi per me mshef scrollbar horizontale-->
-  <style type="text/css">
-body {
-    overflow-x:hidden;
-    }
-</style>
   <script src="javascript.js"></script>
-
-	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-<title>News24</title>
+<title>Sport</title>
 </head>
-<body >
-		<div class="row1">
-			  <div class="kerko-box">
-   <input type="text" class="kerko-txt" placeholder="    Kërko..."/>
+<body onload="setInterval(changeColor,1000)" style="background-image: url(Images/green.jpg); background-repeat: repeat-y; background-position: right left; background-attachment: fixed;">
+  <script type="text/javascript">
+    function changeColor()
+    {
+      var x = document.getElementById("a");
+      if (x.style.color=="yellow")
+        x.style.color="white";
+      else if (x.style.color=="white")
+        x.style.color="silver";
+      else if (x.style.color=="silver")
+        x.style.color="gray";
+      else
+        x.style.color="white";
+    }
+  </script>
+    <div class="row1">
+        <div class="kerko-box">
+   <input type="text" name="" class="kerko-txt" placeholder="    Kërko..."/>
    <a class="kerko-btn">
  <i class="fas fa-search"></i>
    </a>
   </div>
-	<ul class="main-nav-1">
+  <ul class="main-nav-1">
 <li><a href="Menu-1/signup.html" target="_blank">REGJISTROHU</a></li>
 <li><a href="Menu-1/kyqu.html" target="_blank">KYÇU</a></li>
-<li><a href="zhvilluesit.html" target="_blank">ZHVILLUESIT</a></li>
+<li><a href="zhvilluesit.html">ZHVILLUESIT</a></li>
 <li><a href="https://www.rss.com" target="_blank">RSS FEEDS</a></li>
 </ul>
 </div>
 <div id="wholepage">
-<h1 style="font-size: 70px;margin-left:60px;">News24
-  <h2 style="font-size:15px;margin-left: 60px;">Per lajme me te shpejta</h2>
+<h1 style="font-size: 70px;margin-left:60px; color: white">SPORT
 <ul class="rss-list">
-	<li><a href="https://www.linkedin.com" class="c1" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-	<li><a href="https://www.pinterest.com" class="c2" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
-	<li><a href="https://web.facebook.com/?_rdc=1&_rdr" class="c3" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+  <li><a href="https://www.linkedin.com" class="c1" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+  <li><a href="https://www.pinterest.com" class="c2" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+  <li><a href="https://web.facebook.com/?_rdc=1&_rdr" class="c3" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
     <li><a href="https://www.rss.com" class="c4" target="_blank"><i class="fas fa-rss"></i></a></li>
     <li><a href="https://www.twitter.com" class="c5" target="_blank"><i class="fab fa-twitter"></i></a></li>
 </ul> 
 </h1>
 <br/>
-
+<h2 id="a" style="margin-left: 60px; ">Per lajme me te shpejta</h2>
 <div class="row2">
-<ul class="main-nav-2">
-<li><a href="#">FAQJA KRYESORE</a></li>
+<ul class="main-nav-2-sport">
+<li><a href="index.html">FAQJA KRYESORE</a></li>
 <li><a href="sport.html">SPORT</a></li>
 <li><a href="ekonomi.html">EKONOMI</a></li>
 <li><a href="teknologji.html">TEKNOLOGJI</a></li>
@@ -54,8 +57,6 @@ body {
 <li><a href="#">PROJEKTI</a></li>
 </ul>
 </div>
-
-	
 
 </body>
 </html>
