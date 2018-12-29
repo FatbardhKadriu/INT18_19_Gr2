@@ -1,6 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	
+</script>
   <script src="javascript.js"></script>
 	<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -79,3 +82,48 @@ function clickCounter() {
 <p>Click the button to see the counter increase.</p>
 <p>Close the browser tab (or window), and try again, and the counter is reset.</p>
 
+
+   
+<div id="video"></div>
+<style type="text/css">
+	
+#video {
+  display: block;
+  width: 320px;
+  height: 240px;
+  background-color: #ccc;
+  background-image: url("Images/ti.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: 2px solid blue;
+}
+
+#video.active {
+  background-color: white;
+  border: 2px solid #eee;
+}
+
+
+
+</style>
+<script type="text/javascript">
+	
+/* VanillaJS way */
+document.getElementById('video').addEventListener('click', function() {
+  this.innerHTML = '<iframe src="https://www.youtube.com/embed/2d9B0ffKeP4?rel=0&autoplay=1" width="320" height="240" frameborder="0" allowfullscreen="false">';
+  this.className = 'active';
+});
+/* jQuery way:
+ ---------------
+ $('#video').on('click', function() {
+  $(this).html('<iframe src="https://www.youtube.com/embed/a6KGPBflhiM?rel=0&autoplay=1" width="320" height="240" frameborder="0" allowfullscreen="false">')
+  .addClass('active');
+});
+*/
+
+
+
+
+
+</script>
