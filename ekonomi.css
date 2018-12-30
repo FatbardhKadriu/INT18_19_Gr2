@@ -5,6 +5,9 @@
 a{
 	text-decoration: none;
 }
+article{
+	margin-left: 87px;
+}
 .main-nav-1
 {
 	float:left;
