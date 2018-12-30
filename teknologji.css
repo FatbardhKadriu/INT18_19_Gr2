@@ -4,7 +4,9 @@
   width: 100%;
 }
 
-
+article{
+  margin-left: 87px;
+}
 .overlay {
   position: absolute;
   top: 0;
