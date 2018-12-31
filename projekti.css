@@ -32,3 +32,11 @@ p.ridge {outline-style: ridge;}
 p.inset {outline-style: inset;}
 p.outset {outline-style: outset;}
 
+.tabela2
+{
+	border:1px solid white;
+}
+.tabela2 tr:nth-child(even)
+{
+	background-color: #fefefe;
+}
