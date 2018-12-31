@@ -75,75 +75,6 @@ Canvas nuk perkrahet nga browseri juaj.
 </script>
 
 
-	<style>
-p {outline-color:red;}
-
-p.dotted {outline-style: dotted;}
-p.dashed {outline-style: dashed;}
-p.solid {outline-style: solid;}
-p.double {outline-style: double;}
-p.groove {outline-style: groove;}
-p.ridge {outline-style: ridge;}
-p.inset {outline-style: inset;}
-p.outset {outline-style: outset;}
-</style>
-</head>
-<body>
-<br><br><br><br>
-<h2 style="text-align: center;">The outline-style Property</h2>
-<br>
-
-<p class="dotted">A dotted outline</p>
-<p class="dashed">A dashed outline</p>
-<p class="solid">A solid outline</p>
-<p class="double">A double outline</p>
-<p class="groove">A groove outline. The effect depends on the outline-color value.</p>
-<p class="ridge">A ridge outline. The effect depends on the outline-color value.</p>
-<p class="inset">An inset outline. The effect depends on the outline-color value.</p>
-<p class="outset">An outset outline. The effect depends on the outline-color value.</p>
-<style>
-.boxmodel {
-  background-color: lightgrey;
-  width: 300px;
-  border: 25px solid green;
-  padding: 25px;
-  margin: 25px;
-}
-</style>
-
-
-<h2> Box Model</h2>
-
-
-<div class="boxmodel">This text is the actual content of the box. We have added a 25px padding, 25px margin and a 25px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-<canvas id="myCanvas1" width="200" height="100"
-style="border:1px solid #d3d3d3;">
-Your browser does not support the HTML5 canvas tag.</canvas>
-
-<script>
-var c = document.getElementById("myCanvas1");
-var ctx = c.getContext("2d");
-
-// Create gradient
-var grd = ctx.createLinearGradient(0,0,200,0);
-grd.addColorStop(0,"red");
-grd.addColorStop(1,"white");
-
-// Fill with gradient
-ctx.fillStyle = grd;
-ctx.fillRect(10,10,150,80);
-</script>
-<style type="text/css">
-p.round3 {
-  border: 2px solid red;
-  border-radius: 12px;
-}
-</style>
-
-
-<p class="round3">Roundest border</p>
-
-
 <style>
 .p1 {
   border-left: 6px solid red;
@@ -171,92 +102,26 @@ window.onload = function() {
 };
 </script>
 
-<h2>The border-left Property</h2>
-<p class="p1">This property is a shorthand property for border-left-width, border-left-style, and border-left-color.</p>
-	<table border=1 cellpadding="10" cellspacing="0" class="tabela2">
-	</br>
-	</br>
-	</br>
-	</br>
-	</br>
-	</br>
-	</br>
-	</br>
-<center>
-	<table border=1 cellpadding="10" cellspacing="0">
-	<caption style="background-color: lightblue; padding: 10px; color:white">Tetor 2018</caption>
-	<tr>
-		<th>S</th>
-		<th>M</th>
-		<th>T</th>
-		<th>W</th>
-		<th>T</th>
-		<th>F</th>
-		<th>S</th>
-	</tr>
-	<tr>
-		<td></td>
-		<td>1</td>
-		<td>2</td>
-		<td>3</td>
-		<td>4</td>
-		<td><a href="#" targer=_blank>5</td>
-		<td>6</td>
-
-
-	</tr>
-	<tr>
-		<td>7</td>
-		<td>8</td>
-		<td>9</td>
-		<td>10</td>
-		<td>11</td>
-		<td>12</td>
-		<td>13</td>
-	</tr>
-	<tr>
-		<td>14</td>
-		<td>15</td>
-		<td>16</td>
-		<td style="background-color: red; color: lightblue">17</td>
-		<td>18</td>
-		<td>19</td>
-		<td>20</td>
-	</tr>
-	<tr>
-		<td>21</td>
-		<td>22</td>
-		<td>23</td>
-		<td><a href="#">24</a></td>
-		<td>25</td>
-		<td>26</td>
-		<td>27</td>
-	</tr>
-	<tr>
-	<td>21</td>
-		<td>28</td>
-		<td>29</td>
-		<td>30</td>
-		<td>31</td>
-		
-	</tr>
-
-	</table>
-</center>
-
-<section>
-  <h1>WWF</h1>
-  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
-</section>
-
-<section>
-  <h1>WWF's Panda symbol</h1>
-  <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
-</section>
 
 
 
 </body>
 </html>
-</body>
+<canvas id="myCanvas1" width="200" height="100"
+style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas1");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createLinearGradient(0,0,200,0);
+grd.addColorStop(0,"red");
+grd.addColorStop(1,"white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10,10,150,80);
+</script></td></tr>
 </html>
