@@ -5,6 +5,9 @@
 a{
 	text-decoration: none;
 }
+article{
+	margin-left: 87px;
+}
 .main-nav-1
 {
 	float:left;
@@ -48,7 +51,7 @@ a{
 	float:left;
 	list-style: none;
 	margin-top: 30px;
-	background-color: #DE05CF;
+	background-color: #2B1B1B;
 	padding: 18px;
 	width: 100%;
 	border-radius: 5px;
@@ -71,7 +74,7 @@ a{
 }
 .main-nav-2 li a:hover
 {
-	color:black;
+	color:red;
 }
 .row2
 {
@@ -181,5 +184,4 @@ a:visited{
 {
 	color:darkorange;
 }
-
 
