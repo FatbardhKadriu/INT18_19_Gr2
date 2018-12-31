@@ -36,24 +36,11 @@
 	</tr>
 </table>
 <br><br>
-	<h3 ">'Canvas'</h3>
+	<h3 style="text-align: center;">Aplikimi i HTML5 elementeve 'Canvas' dhe 'SVG'</h3>
 	<canvas id="mycanvas" width="400" height="220" 
 style="border:3px solid #c3c3c3;">
 Canvas nuk perkrahet nga browseri juaj.
 </canvas>  
-<h3 style="margin-left: 310px;">SVG</h3>
-<svg width="200" height="150" >
-  <circle cx="110" cy="70" r="70" stroke="green" stroke-width="4" fill="yellow" />
-</svg>
-<svg width="250" height="180">
-  <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
-  style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
-</svg>
-<svg width="300" height="200">
-  <polygon points="100,10 40,198 190,78 10,78 160,198"
-  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
-</svg>
-
 <script>
 	
     var c = document.getElementById("mycanvas");
@@ -117,29 +104,109 @@ p.round3 {
 .p1 {
   border-left: 6px solid red;
   background-color: lightgrey;
-  color: black;
 }
 </style>
 
 
 <h2>The border-left Property</h2>
 <p class="p1">This property is a shorthand property for border-left-width, border-left-style, and border-left-color.</p>
+	<table border=1 cellpadding="10" cellspacing="0" class="tabela2">
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
 
-<style>
-.boxmodel {
-  background-color: lightgrey;
-  width: 300px;
-  border: 25px solid green;
-  padding: 25px;
-  margin: 25px;
-  color: black;
-}
-</style>
+	<caption style="background-color: lightblue; padding: 10px; color:white">Tetor 2018</caption>
+	<tr>
+		<th>S</th>
+		<th>M</th>
+		<th>T</th>
+		<th>W</th>
+		<th>T</th>
+		<th>F</th>
+		<th>S</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+		<td>4</td>
+		<td><a href="#" targer=_blank>5</td>
+		<td>6</td>
 
 
-<h2> Box Model</h2>
-
-
+<<<<<<< HEAD
 <div class="boxmodel" >This text is the actual content of the box. We have added a 25px padding, 25px margin and a 25px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+<canvas id="myCanvas" width="200" height="100"
+style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createLinearGradient(0,0,200,0);
+grd.addColorStop(0,"red");
+grd.addColorStop(1,"white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10,10,150,80);
+</script>
+
+
+=======
+	</tr>
+	<tr>
+		<td>7</td>
+		<td>8</td>
+		<td>9</td>
+		<td>10</td>
+		<td>11</td>
+		<td>12</td>
+		<td>13</td>
+	</tr>
+	<tr>
+		<td>14</td>
+		<td>15</td>
+		<td>16</td>
+		<td style="background-color: red; color: white">17</td>
+		<td>18</td>
+		<td>19</td>
+		<td>20</td>
+	</tr>
+	<tr>
+		<td>21</td>
+		<td>22</td>
+		<td>23</td>
+		<td><a href="1">24</a></td>
+		<td>25</td>
+		<td>26</td>
+		<td>27</td>
+	</tr>
+	<tr>
+	<td>21</td>
+		<td>28</td>
+		<td>29</td>
+		<td>30</td>
+		<td>31</td>
+		
+	</tr>
+	<tfoot>
+	<tr>
+		<td colspan="2"><a href="#">Sept</a></td>
+		<td colspan="3"></td>
+		<td colspan="2"><a href="#">Nov</a></td>
+	</tr>
+</tfoot>
+	</table>
+>>>>>>> 548ed7c6744c75e113477b4bada36cb0e441c95d
 </body>
 </html>
