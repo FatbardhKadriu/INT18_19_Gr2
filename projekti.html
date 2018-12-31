@@ -116,6 +116,23 @@ p.outset {outline-style: outset;}
 
 
 <div class="boxmodel">This text is the actual content of the box. We have added a 25px padding, 25px margin and a 25px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+<canvas id="myCanvas1" width="200" height="100"
+style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas1");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createLinearGradient(0,0,200,0);
+grd.addColorStop(0,"red");
+grd.addColorStop(1,"white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10,10,150,80);
+</script>
 <style type="text/css">
 p.round3 {
   border: 2px solid red;
@@ -133,7 +150,26 @@ p.round3 {
   background-color: lightgrey;
 }
 </style>
+<p>Image to use:</p>
 
+<img id="m" width="220" height="277"
+src="pic_the_scream.jpg" alt="The Scream">
+
+<p>Canvas:</p>
+
+<canvas id="myCanvas" width="240" height="297"
+style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+<script>
+window.onload = function() {
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("m");
+   ctx.drawImage(img, 10, 10);
+};
+</script>
 
 <h2>The border-left Property</h2>
 <p class="p1">This property is a shorthand property for border-left-width, border-left-style, and border-left-color.</p>
