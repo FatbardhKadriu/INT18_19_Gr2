@@ -2,3 +2,20 @@ body{
 	background-image: url(Images/bgProjekti.jpg);
 	color: white;
 }
+table
+{
+	border-collapse: collapse;
+}
+table, td,th
+{
+	border: 2px solid gray;
+}
+th,td
+{
+	padding: 10px;
+	text-align: center;
+}
+tr:hover 
+{
+	background-image:url(Images/bgProjekti.jpg);
+}
