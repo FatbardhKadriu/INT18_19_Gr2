@@ -38,5 +38,9 @@ p.outset {outline-style: outset;}
 }
 .tabela2 tr:nth-child(even)
 {
-	background-color: #fefefe;
+	background-color: gray;
+}
+.tabela2 tr:nth-child(odd)
+{
+	background-color: black;
 }
