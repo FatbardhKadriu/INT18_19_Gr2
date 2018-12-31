@@ -36,11 +36,7 @@
 	</tr>
 </table>
 <br><br>
-	<h3 style="margin-left: 170px;">Canvas</h3>
-	<canvas id="mycanvas" width="400" height="220" 
-style="border:3px solid #c3c3c3;">
-Canvas nuk perkrahet nga browseri juaj.
-</canvas>
+	
 <h3 style="margin-left: 310px;">SVG</h3>
 <svg width="200" height="200">
   <circle cx="100" cy="120" r="65" stroke="yellow" stroke-width="4" fill="purple" />
@@ -53,35 +49,8 @@ Canvas nuk perkrahet nga browseri juaj.
   <polygon points="100,10 40,198 190,78 10,78 160,198"
   style="fill:brown;stroke:lightblue;stroke-width:5;fill-rule:evenodd;" />
 </svg>
-</canvas>  
-<script>
-	
-    var c = document.getElementById("mycanvas");
-    var ctx = c.getContext("2d");
-    //ctx.fillStyle("#FF0000");
-    //ctx.fillRect(0,0,150,75);
-    //ctx.fillStyle("#FEFEFE");
-    //ctx.strokeText("Pershendetje!",10,50);
-    ctx.font = "Arial 20px";
-    ctx.fillStyle ="#FFEEFF";
-    ctx.color = "red";
-    ctx.moveTo(0,0);
-    ctx.lineTo(200,110);  
-    ctx.lineTo(400,0); 
-    ctx.stroke(); 
-    ctx.strokeText("To: FIEK",10,160);
-    ctx.strokeText("Bregu i Diellit",10,170);
-    ctx.strokeText("10000 Prishtine p.n.",10,180);
-    //ctx.arc()
-</script>
 
 
-<style>
-.p1 {
-  border-left: 6px solid red;
-  background-color: lightgrey;
-}
-</style>
 <p>Image to use:</p>
 
 <img id="m" width="220" height="277"
