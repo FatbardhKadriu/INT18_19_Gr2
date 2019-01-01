@@ -29,27 +29,23 @@
 	</ul>
 	<div >	<br><br><br>
 			<canvas id="mycanvas" width="280" height="150" 
-style="border:3px solid #c3c3c3;">
+style="border:1.5px solid white">
 </canvas>
 		<script>
 	
     var c = document.getElementById("mycanvas");
     var ctx = c.getContext("2d");
-    //ctx.fillStyle("#FF0000");
-    //ctx.fillRect(0,0,150,75);
-    //ctx.fillStyle("#FEFEFE");
-    //ctx.strokeText("Pershendetje!",10,50);
+    ctx.strokeStyle = "white";
+    ctx.lineWidth=1.5;
     ctx.moveTo(0,0);
     ctx.lineTo(140,75);  
     ctx.lineTo(280,0); 
     ctx.stroke(); 
-    ctx.strokeText("Linku:",10,110);
-    ctx.strokeText("Bregu i Diellit",10,170);
-    ctx.strokeText("10000 Prishtine p.n.",10,180);
+    ctx.strokeText("Linku:",10,115);
     //ctx.arc()
 </script>
 	</div>
-	<a class="mesazh" href="mailto:News24@gmail.com">Na kontaktoni në email</a>
+	<a class="mesazh"  href="mailto:News24@gmail.com">Na kontaktoni në email</a>
 	</div>
 
 </body>
