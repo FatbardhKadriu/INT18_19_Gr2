@@ -3,6 +3,9 @@ body{
 	background-size: cover;
 	color: white;
 }
+h3,p{
+	font-family: fontiim;
+}
 
 table
 {
@@ -57,3 +60,8 @@ a{
         width: 500px;
         background:linear-gradient(to right,red,blue); 
     }
+    @font-face
+{
+    font-family: fontiim;
+    src:url(SansationBold.woff);
+}
