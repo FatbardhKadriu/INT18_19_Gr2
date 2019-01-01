@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
+
 <style type="text/css">
 #example2 {
   border: 1px solid;
@@ -106,5 +106,21 @@ grd.addColorStop(1,"white");
 ctx.fillStyle = grd;
 ctx.fillRect(10,10,150,80);
 </script></td></tr>
+<style> 
+#borderimg1 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(Images/day.jpg) 30 round; /* Safari 3.1-5 */
+  -o-border-image: url(Images/day.jpg) 30 round; /* Opera 11-12.1 */
+  border-image: url(Images/day.jpg) 30 round;
+}
+
+</style>
+
+
+
+
+<p id="borderimg1">Here, the image tiles to fill the area. The image is rescaled if necessary, to avoid dividing tiles.</p>
+
 
 </html>
