@@ -47,3 +47,6 @@ p.outset {outline-style: outset;}
 a{
 	text-decoration: none;
 }
+.shadow{
+ text-shadow: 10px 10px 10px brown;
+}
