@@ -44,3 +44,6 @@ p.outset {outline-style: outset;}
 {
 	background-color: black;
 }
+a{
+	text-decoration: none;
+}
