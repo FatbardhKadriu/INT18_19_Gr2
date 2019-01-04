@@ -116,6 +116,8 @@
       transform: matrix(1, -0.1, 2, 1, 2, 0); /* Standard syntax */
        transform :rotate(-20deg);
        transform: translate(-5%,-15%);
+       transform: rotateY(-5deg);
+       transform: rotateX(5deg);
   }
   div#mydiv2 {
 
@@ -127,7 +129,7 @@
     transform: scale(2,1);
     margin-left: 225px;
 }
-#mydiv1, #mydiv2, #mydiv3{
+#mydiv1, #mydiv2, #mydiv3, #mydiv4{
   margin-top: 30px;
   margin-left: 35px;
   width: 150px;
@@ -139,6 +141,10 @@
 {
   font-family: verdana;
   font-size: 12px;
+}
+#mydiv4
+{
+    transform: matrix(1, -0.1, 2, 1, 2, 0,2,5);
 }
 </style>
       <div class="gallery" style="margin-left: 70px;">
@@ -172,6 +178,7 @@
     <div id="mydiv3">
         Futbolli është art.
       </div>
+      <div id="mydiv4">Topi është një "Tokë" e vogël.</div>
     </div>
       <br><br><br><br><br>
       <table cellspacing="30">
