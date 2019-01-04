@@ -34,6 +34,16 @@ p.double {outline-style: double;}
 p.groove {outline-style: groove;}
 p.ridge {outline-style: ridge;}
 p.inset {outline-style: inset;}
+
+
+#divA, #divB {
+  float: left;
+  width: 500px;
+  height: 105px;
+  
+  border: 1px solid black;
+ 
+}
 p.outset {outline-style: outset;}
 
 .tabela2
