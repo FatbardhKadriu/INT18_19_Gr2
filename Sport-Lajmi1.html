@@ -113,19 +113,32 @@
   div#mydiv1
   {
       
-      transform: matrix(1, -0.1, 2, 1, 2, 5); /* Standard syntax */
+      transform: matrix(1, -0.1, 2, 1, 2, 0); /* Standard syntax */
+       transform :rotate(-20deg);
+       transform: translate(-5%,-15%);
   }
   div#mydiv2 {
 
   transform: matrix(1, 0, 0.5, 1, 150, 0); /* Standard syntax */
+   transform :rotate(20deg);
 }
-#mydiv1, #mydiv2{
+  div#mydiv3 {
+    transform: skewX(30deg);
+    transform: scale(2,1);
+    margin-left: 225px;
+}
+#mydiv1, #mydiv2, #mydiv3{
   margin-top: 30px;
   margin-left: 35px;
   width: 150px;
-  height: 50px;
+  height: 80px;
   background-color: lightgreen;
   border: 1px solid white;
+}
+.div123
+{
+  font-family: verdana;
+  font-size: 12px;
 }
 </style>
       <div class="gallery" style="margin-left: 70px;">
@@ -149,14 +162,17 @@
         </ol>
       </span>
       <h3 style="color: white">Skriniari ka thënë : </h3>
-      
+      <div class="div123">
       <div id="mydiv1">
         Futbolli është zemra e sporteve.
       </div>
       <div id="mydiv2">
         Isha katër vjeqar kur shënova golin e parë.
       </div>
-    
+    <div id="mydiv3">
+        Futbolli është art.
+      </div>
+    </div>
       <br><br><br><br><br>
       <table cellspacing="30">
   <col width="25%">
