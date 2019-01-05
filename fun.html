@@ -55,44 +55,7 @@ body {
 <li><a href="projekti.html">PROJEKTI</a></li>
 </ul>
 </div>
-<div id="result"></div>
-
-<script>
-// Check browser support
-if (typeof(Storage) !== "undefined") {
-  // Store
-  localStorage.setItem("lastname", "Smith");
-  // Retrieve
-  document.getElementById("result").innerHTML = localStorage.getItem("lastname");
-} else {
-  document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
-}
-</script>
-
-<script>
-function clickCounter() {
-  if (typeof(Storage) !== "undefined") {
-    if (sessionStorage.clickcount) {
-      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
-    } else {
-      sessionStorage.clickcount = 1;
-    }
-    document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
-  } else {
-    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
-  }
-}
-</script>
-
-
-
-<p><button onclick="clickCounter()" type="button">Click me!</button></p>
-<div id="result"></div>
-<p>Click the button to see the counter increase.</p>
-<p>Close the browser tab (or window), and try again, and the counter is reset.</p>
-
-
-   <br><br>
+<br><br><br><br><br><br><br>
 <div id="video"></div>
 <style type="text/css">
 	body{
@@ -149,7 +112,7 @@ function drop(ev) {
 }
 </script>
 <div id="divA" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img src="images/qaj.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="500" height="105">
+  <img src="images/qaj.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="500" height="315">
 </div>
 
 <div id="divB" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
@@ -158,13 +121,12 @@ function drop(ev) {
 #divA, #divB {
   float: left;
   width: 500px;
-  height: 135px;
+  height: 315px;
   margin: 10px;
   padding: 10px;
   border: 1px solid black;
 }
 </style>
-
 <audio controls>
 
   <source src="audio1.mp3" type="audio/mpeg">
