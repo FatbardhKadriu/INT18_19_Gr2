@@ -2,7 +2,36 @@ CACHE MANIFEST
 
 
 CACHE:
+Menu-1/kyqu.html
+Menu-1/kyqu.css
+Menu-1/signup.css
+Menu-1/signup.html
+index.html
+ekonomi.html
+ekonomi.css
+fun.html
+Kontakti.html
+projekti.html
+projekti.css
+albini.html
+bardhi.html
+FatbardhGashi.html
+lajmi1.html
+Sport.html
+Sport-Lajmi1.html
+sport-lajmi2.html
+teknologji.html
+zhvilluesit.html
+zhvilluesit.css
+teknologji.css
 style.css
-NETWORK
+
+planifikimi_js.js
+
+
+FALLBACK:
+
+/ /offline.html
+
+NETWORK:
 *
-FALLBACK
