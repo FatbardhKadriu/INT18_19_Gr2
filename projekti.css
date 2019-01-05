@@ -1,29 +1,8 @@
 body{
 	background-image: url(Images/bgProjekti.jpg);
-	background-size: cover;
 	color: white;
 }
-h3,p{
-	font-family: fontiim;
-}
 
-table
-{
-	border-collapse: collapse;
-}
-table, td,th
-{
-	border: 2px solid gray;
-}
-th,td
-{
-	padding: 10px;
-	text-align: center;
-}
-tr:hover 
-{
-	background-image:url(Images/bgProjekti.jpg);
-}
 
 p {outline-color:red;}
 
@@ -34,16 +13,6 @@ p.double {outline-style: double;}
 p.groove {outline-style: groove;}
 p.ridge {outline-style: ridge;}
 p.inset {outline-style: inset;}
-
-
-#divA, #divB {
-  float: left;
-  width: 500px;
-  height: 105px;
-  
-  border: 1px solid black;
- 
-}
 p.outset {outline-style: outset;}
 
 .tabela2
@@ -56,22 +25,5 @@ p.outset {outline-style: outset;}
 }
 .tabela2 tr:nth-child(odd)
 {
-	background-color: black;
-}
-a{
-	text-decoration: none;
-}
-.shadow{
- text-shadow: 10px 10px 10px brown;
-}
- #gradient
-    {
-        height:200px;
-        width: 500px;
-        background:linear-gradient(to right,red,blue); 
-    }
-    @font-face
-{
-    font-family: fontiim;
-    src:url(Sansation_Light-webfont.woff);
+	background-color: gray;
 }
