@@ -79,7 +79,12 @@ a{
 	max-width: 1680px;
 	margin:auto;
 }
+.formsport{
+		background-color: #ede0ed;
+	border-radius: 5px;
+	padding: 6px;
 
+}
 .form{
 	background-color: #ededed;
 	border-radius: 5px;

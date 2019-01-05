@@ -6,7 +6,35 @@ body {
     overflow-x:hidden;
     }
 </style>
-  <script src="javascript.js"></script>
+ <script src="javascript.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script>
+    $(document).ready(function(){
+ 
+  $('input[id]').focus(function(){
+    $(this).css("background-color","#660033");
+  });
+  $('input[id]').focus(function(){
+    $(this).css("color","white");
+  });
+  $('input[id]').blur(function()
+  {
+    $(this).css("background-color","black");
+  });
+  $("textarea").focus(function(){
+    $(this).css("background-color","#660033")
+  });
+  $("textarea").focus(function(){
+    $(this).css("color","white")
+  });
+  $("textarea").blur(function(){
+    $(this).css("background-color","black")
+  });
+  $("textarea").blur(function(){
+    $(this).css("color","white")
+  });
+});
+  </script>
 
 	<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -211,10 +239,10 @@ body {
                     </td>
                     <td rowspan="2">
                     		<form action="#" method="post" onsubmit="return checkforblank()"><br/><br/>
-<input id="input1" class="form" id="EmriMbiemri" type="text" name="EmriMbiemri" size=39 placeholder="Emri dhe mbiemri"></input></br>
-<br/><input id="input1" class="form" id="email" type="email" placeholder="E-mail" name="Email" size="39" ></input><br/>
-<br/><input id="input1" class="form"  type="text" placeholder="Subjekti" name="Subject" size="39" required ></input></br>
-<br/><textarea id="input1" class="form" name="Message" placeholder="Ju lutem jepni mesazhin tuaj" rows="5" cols="39" required></textarea></br/>
+<input id="input1" class="formsport" id="EmriMbiemri" type="text" name="EmriMbiemri" size=39 placeholder="Emri dhe mbiemri"></input></br>
+<br/><input id="input1" class="formsport" id="email" type="email" placeholder="E-mail" name="Email" size="39" ></input><br/>
+<br/><input id="input1" class="formsport"  type="text" placeholder="Subjekti" name="Subject" size="39" required ></input></br>
+<br/><textarea id="input1" class="formsport" name="Message" placeholder="Ju lutem jepni mesazhin tuaj" rows="5" cols="39" required></textarea></br/>
 <br/><input id="sub" title="input1" class="form2" type="submit" value="Paraqit" name="Submit" required></input></p>
                     </td>
                 </tr>
@@ -251,11 +279,5 @@ body {
 		
 		</tr>
 	</table>
-	<style type="text/css">
-		.top{
-			padding: 50%;
-		}
-	</style>
-<a class="top" href="#top">Top</a>
 </body>
 </html>
