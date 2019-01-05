@@ -18,7 +18,7 @@ function checkforblank(){
 		}
 
 function openKyqu(){
-			window.open("Menu-1/kyqu.html","_blank","top=40,bottom=400,left=600,height=450,width=600");
+			window.open("Menu-1/kyqu.html","_blank","top=40,bottom=400,left=600,height=600,width=600");
 		}
 		function openRegjistrohu(){
 			window.open("Menu-1/signup.html","_blank","top=0,left=200,height=700,width=1000");
