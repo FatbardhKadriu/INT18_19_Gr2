@@ -2,6 +2,26 @@
 <html>
 <font face="century">
 <head>
+  <style>
+#more {display: none;}
+</style>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Shiko me shume"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Lexo me pak"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
 <!--kodi per me mshef scrollbar horizontale-->
 
   <style type="text/css">
@@ -135,9 +155,10 @@ body {
 			<td rowspan="2"><br/><br/><img src="Images/3.jpg" width="380px" height="170px"></td><td><p><img src="Images/8.jpg" width="64px" height="64px" align="left"><pre style="font-size: 15px">  <b><u>Ipko</b></u>   Zyra Qendrore:<address>
   Lagjja Ulpiana Rr. "Zija Shemsiu" nr. 34
   10000 Prishtin&euml;, Kosov&euml;</address>
- </pre></p></td><td rowspan="2"><img src="Images/c.png" width="80px" height="80px" align="left"><br><p><b>Albin Qerimi - Student</b></p><br/><p class="newLine"><br/><br/>Une e ndjek kete portal vazhdimisht dhe ajo qe me pelqen me se shumti te ky portal eshte qe nuk poston lajme te rrejshme sa per te fituar klikime, mirepo per ti sherbyer te tjerve </p>
+ </pre></p></td><td rowspan="2"><img src="Images/c.png" width="80px" height="80px" align="left"><br><p><b>Albin Qerimi - Student</b></p><br/><p class="newLine"><br/><br/>Une e ndjek kete portal vazhdimisht dhe ajo qe me pelqen me se shumti te ky portal eshte qe nuk poston lajme te rrejshme sa per te fituar klikime,<span id="dots">...</span><span id="more"> mirepo per ti sherbyer te tjerve </span></p>
+
 			<p align="right">
-                <br/><br/><a href="#dd" style="color:red">Shiko me shume»</a>	</p></td>
+                <br/><br/><a href="#dd" style="color:red" onclick="myFunction()" id="myBtn">Shiko me shume»</a>	</p></td>
 		</tr>
 		<tr><td><p><img src="Images/9.png" width="64px" height="64px" align="left"><pre style="font-size: 15px">  <b><u>S Sprint</b></u>  Zyra Qendrore:<address>
   Lagjja Ulpiana Rr. "Agim Ramadani" nr. 14
