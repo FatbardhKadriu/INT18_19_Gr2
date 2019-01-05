@@ -4,6 +4,15 @@
 <!DOCTYPE html>
 <html>
 <script src="js/jquery-3.3.1.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  $("#flip").text("Kliko per ta mbyllur");
+  
+  });
+});
+</script>
 <script>
 $(document).ready(function(){
   $("#svg").mouseenter(function(){
@@ -115,7 +124,10 @@ function clickCounter() {
 
    <br><br>
 
-  
+   
+<div id="flip">Kliko per te rreshqitur poshte kete panel</div>
+<div id="panel">Nice</div>
+<br>
 
 <button id="btn5">Animacioni ne te gjitha drejtimet</button>
 <p>Te gjitha HTML elementet kane pozicion static dhe nuk mund te levizen. Per te manipuluar me pozicionin, CSS veta e pozites (position), duhet te vendoset si relative, fixed ose absolute!</p>

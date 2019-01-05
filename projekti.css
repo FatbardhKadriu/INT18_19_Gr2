@@ -30,3 +30,15 @@ p.outset {outline-style: outset;}
 a{
 	text-decoration: none;
 }
+#panel,#flip
+{
+padding:5px;
+text-align:center;
+background-color:#550033;
+border:solid 1px #c3c3c3;
+}
+#panel
+{
+padding:50px;
+display:none;
+}
