@@ -27,3 +27,6 @@ p.outset {outline-style: outset;}
 {
 	background-color: gray;
 }
+a{
+	text-decoration: none;
+}
