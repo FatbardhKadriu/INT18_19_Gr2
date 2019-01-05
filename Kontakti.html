@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kontakti</title>
+<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+        <link rel="icon" href="Images/plane.png" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+        <link rel="stylesheet" href="css/kontakti.css" type="text/css" media="all">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+    </head>
+    
+    <!-- Header fillon ketu -->
+<body>
+  <h1>Kontakti</h1>
+  <div class="kutiatransparente">
+  <p style="color:white;background-color:darkmagenta;">Nese deshironi te kontaktoni me ne, mund te na vizitoni ne objektin tone ose thjeshte mund te na shkruani mesazh me poshte.</p>
+  <fieldset><legend><h2>Kontakti</h2></legend>
+  <p><img src="Images/map.png" width="40px" height="25px" alt="lokacioni">Rr.Agim Ramadani - Prishtine FIEK</p>
+  <p><img src="Images/phone.png" width="40px" height="25px" alt="telefoni">  + 377 44 123 456</p>
+<p><img src="Images/envelope.png" width="40px" height="25px" alt="emaili">
+  <a href="#">info@airkosova.com</a></p>
+  <p><img src="Images/globe.png" width="40px" height="25px" alt="website">
+  <a href="#">www.airkosova.com</a></p></fieldset>
+    <p style="color:white;background-color:darkmagenta;">Jepni te dhenat tuaja dhe pastaj na shkruani mesazh!</p>
+  <form name="myForm" action="" autocomplete="on">
+    <p>Emri: <input name="emri" type="text" autocomplete="off" name="Emri" placeholder="Emri juaj.."></p>
+
+   <p>Mbiemri: <input name="mbiemri" type="text" autocomplete="off" name="Mbiemri" placeholder="Mbiemri juaj.."></p>
+
+    <p>Mesazhi:
+    <input name="mesazhi" type="text" name="Mesazhi" placeholder="Mesazhi.." size="100"/></p>
+  
+   <p><input type="submit" value="Dergo" onclick="myFunction()" >
+    <input type="reset" value="Fshij"></p></form>
+                <p id="message"></p>
+<p style="color:white;background-color:darkmagenta;">Harta e lokacionit</p>
+        
+           <p>Klikoni butonin per te pare koordinatat e lokacionit tuaj.</p>
+
+<button onclick="getLocation()">Butoni</button>
+
+<p id="demo"></p>
+
+<div id="div1" style="width:500px;height:300px;border:3px solid darkmagenta;" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="Images/map1.png" width="495" height="295" draggable="true" ondragstart="drag(event)" id="drag1"></div><br /><br />
+<div id="div2" style="width:500px;height:300px;border:3px solid darkmagenta; resize:both;overflow:auto;" ondrop="drop(event)" ondragover="allowDrop(event)"></div></div>
+  <footer style="padding:8px;font-size:15px;font-weight:bold;text-align:center;background:Darkmagenta;color:white;font-family:"helvetica neue", sans-serif;letter-spacing:1px;">
+                    <p>Shperndajeni faqen tone:</p>
+    <img src="Images/email_32.png" alt="Dergojani dikujt ne Email"/>
+    <img src="Images/facebook_32.png" alt="Shperndajeni ne Facebook"/>
+    <img src="Images/twitter_32.png" alt="Shperndajeni ne Twitter"/>
+    <img src="Images/rss_32.png" alt="RSS"/>
+    <img src="Images/flickr_32.png" alt="Shperndajeni ne Flickr"/>
+    <p>Te gjitha te drejtat e rezervuara.</p>
+                   </footer>
+</body><script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+}
+function myFunction() {
+    var message, x,y,z;
+    message = document.getElementById("message");
+    message.innerHTML = "";
+    x = document.forms["myForm"]["emri"].value;
+    y = document.forms["myForm"]["mbiemri"].value;
+    z = document.forms["myForm"]["mesazhi"].value;
+    try { 
+        if(x == "") { throw alert("Emri nuk eshte dhene")}
+                if(y == "") { throw alert("Mbiemri nuk eshte dhene")}
+           
+       if(z == "") { throw alert("Nuk ke shkruar mesazh!! ")}
+         else{
+           alert("Mesazhi u dergua")};
+      
+    }
+    catch(padefinuar) {
+        message.innerHTML = "Contact is " + padefinuar;
+    }
+    
+    
+};
+</script>
+
+
+</html>
