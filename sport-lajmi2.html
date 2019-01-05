@@ -59,7 +59,9 @@ tr:hover
 <p>Lojtarët më të mirë: </p>
 <p id="demo01">Lojtarët</p>
 <p>Trajnerët më të mirë :</p>
-<p id="demo"></p>
+<p id="demo03"></p>
+<p>Lojtari me note me te larte: </p>
+<p id="demo02"></p>
 <script type="text/javascript">
 	var Lojtarët=["Marcelo", "Salah","Icardi","Messi"];
 
@@ -77,9 +79,19 @@ for (i = 0; i < fLen; i++) {
   text += "<li>" + Trajneret[i] + "</li>";
 }
 text += "</ul>";
-text += "</ul>";
+document.getElementById("demo03").innerHTML = text;
+var person = {
+  firstName: "Muhamed",
+  lastName : "Salah",
+  id     : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
 
-document.getElementById("demo").innerHTML = text;
+// Display data from the object:
+document.getElementById("demo02").innerHTML = person.fullName();
+
 </script>
 </body>
 </html>
