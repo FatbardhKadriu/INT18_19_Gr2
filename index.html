@@ -70,14 +70,15 @@ body {
   $("textarea").blur(function(){
     $(this).css("color","white")
   });
-  $("#sub").click(function(){
+
+  $("#shfaq").click(function(){
     alert("Emri dhe mbiemri: " + $("#input1").val());
      alert("Email: " + $("#input2").val());
      alert("Subjekti: " + $("#input3").val());
      alert("Mesazhi: " + $("#input4").val());
-     alert("Te dhenat u derguan me sukses");
   });
 });
+ 
   </script>
 
 	<link rel="stylesheet" href="style.css">
@@ -274,11 +275,12 @@ body {
                     </td>
                     <td rowspan="2">
                     	<form action="#" method="post" onsubmit="return checkforblank()"><br/><br/>
-<input id="input1" class="form" id="EmriMbiemri" type="text" name="EmriMbiemri" size=39 placeholder="Emri dhe mbiemri"></input></br>
-<br/><input id="input2" class="form" id="email" type="email" placeholder="E-mail" name="Email" size="39" ></input><br/>
+<input id="input1" class="form" id="EmriMbiemri" type="text" name="EmriMbiemri" size=39 placeholder="Emri dhe mbiemri" required></input></br>
+<br/><input id="input2" required class="form" id="email" type="email" placeholder="E-mail" name="Email" size="39" ></input><br/>
 <br/><input id="input3" class="form"  type="text" placeholder="Subjekti" name="Subject" size="39" required ></input></br>
 <br/><textarea id="input4" class="form" name="Message" placeholder="Ju lutem jepni mesazhin tuaj" rows="5" cols="39" required></textarea></br/>
-<br/><input id="sub" title="input1" class="form2" type="submit" value="Paraqit" name="Submit" required></input></p>
+<br/><input id="sub"  class="form2" type="submit" value="Paraqit" name="Submit" ></input><input id="shfaq"  class="form2" type="submit" value="Shfaq te dhenat" name="shfaq" ></input></p>
+
                     </td>
                 </tr>
 

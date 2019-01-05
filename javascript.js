@@ -1,28 +1,4 @@
-	$(document).ready(function(){
-  $("input").focus(function(){
-    $(this).css("background-color","#660033");
-  });
-  $("input").focus(function(){
-    $(this).css("color","white");
-  });
-  $("input").blur(function()
-  {
-    $(this).css("background-color","#ededed");
-  });
-  $("textarea").focus(function(){
-    $(this).css("background-color","black")
-  });
-  $("textarea").focus(function(){
-    $(this).css("color","white")
-  });
-  $("textarea").blur(function(){
-    $(this).css("background-color","#660033")
-  });
-  $("textarea").blur(function(){
-    $(this).css("color","white")
-  });
-});
- 
+
 function checkforblank(){
 			if(document.getElementById('EmriMbiemri').value == ""){
 				alert('Ju lutem jepni Emri dhe Mbiemrin tuaj');
