@@ -21,6 +21,20 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
+function myFunction1() {
+  var dots = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("myBtnn");
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Shiko me shume"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Lexo me pak"; 
+    moreText.style.display = "inline";
+  }
+}
 </script>
 <!--kodi per me mshef scrollbar horizontale-->
 
@@ -169,9 +183,10 @@ body {
 				<p>Adresa jone eshte :<address> Bregu i dielli n0.1455 </address></td><td><p><img src="Images/10.jpg" width="64px" height="64px" align="left"</p><pre style="font-size: 15px">  <b><u>Uj&euml; Rugove</b></u> Zyra Qendrore:<address>
   Bregu i Diellit Rr. "Fan Noli" nr. 04
   10000 Prishtin&euml;, Kosov&euml;</address>
-				</pre></p></td><td rowspan="2"><img src="Images/c.png" width="80px" height="80px" align="left"><br><p><b>Endrit Mehmeti - Student</b></p><br/><p style="word-wrap: break-word; width: 450px;"><br/><br/>Eshte nje portal mjafte i dobishem. Te gjithe ata qe e ndjekin perfshire edhe mu besoje qe jane te kenaqur per shkak te lajmeve te mira dhe te besueshme.</p>
+				</pre></p></td><td rowspan="2"><img src="Images/c.png" width="80px" height="80px" align="left"><br><p><b>Endrit Mehmeti - Student</b></p><br/><p style="word-wrap: break-word; width: 450px;"><br/><br/>Eshte nje portal mjafte i dobishem. Te gjithe ata qe e ndjekin perfshire edhe mu besoje qe jane te kenaqur
+          <span id="dots1">...</span><span id="more1">per shkak te lajmeve te mira dhe te besueshme.</span></p>
 			<p align="right">
-                <br/><br/><a href="#" style="color:red">Shiko m&euml; shum&euml;</a>	</p></td>
+                <br/><br/><a href="#ddd" style="color:red" onclick="myFunction1()" id="myBtnn">Shiko m&euml; shum&euml;</a>	</p></td>
 		</tr>
 		<tr>
 
