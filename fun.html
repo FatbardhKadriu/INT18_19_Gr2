@@ -83,8 +83,8 @@ function clickCounter() {
   }
 }
 </script>
-</head>
-<body>
+
+
 
 <p><button onclick="clickCounter()" type="button">Click me!</button></p>
 <div id="result"></div>
@@ -137,35 +137,13 @@ document.getElementById('video').addEventListener('click', function() {
 
 
 
+<<<<<<< HEAD
 </script>
-<script>
-function allowDrop(ev) {
-  ev.preventDefault();
-}
 
-function drag(ev) {
-  ev.dataTransfer.setData("text", ev.target.id);
-}
 
-function drop(ev) {
-  ev.preventDefault();
-  var data = ev.dataTransfer.getData("text");
-  ev.target.appendChild(document.getElementById(data));
-}
-</script>
-<div id="divA" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img src="images/qaj.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="400" height="175">
+<div class="newspaper">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
 </div>
-
-<div id="divB" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<style>
-	#divA, #divB {
-  
-  float: top;
-  width: 400px;
-  height: 175px;
-  margin: 10px;
-  padding: 10px;
-  border: 5px solid black;
-}
-</style>
+</body>
+</html>
+>>>>>>> c93d730eb8dea3adb2c00336c713d0d66281f0aa

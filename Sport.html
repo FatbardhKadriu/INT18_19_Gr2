@@ -210,12 +210,12 @@ body {
                      </td>
                     </td>
                     <td rowspan="2">
-                    	<form action="#" method="post"><br/><br/>
-<input class="form"  type="text" value="Name" name="Name" size=25></input></br>
-<br/><input class="form"  type="text" value="Email" name="Email" size="25"></input><br/>
-<br/><input class="form"  type="text" value="Subject" name="Subject" size="25"></input></br>
-<br/><textarea class="form" name="Message" rows="5" cols="25">Message</textarea></br/>
-<br/><input class="form2"type="submit" value="Submit" name="Submit"></input></p>
+                    		<form action="#" method="post" onsubmit="return checkforblank()"><br/><br/>
+<input id="input1" class="form" id="EmriMbiemri" type="text" name="EmriMbiemri" size=39 placeholder="Emri dhe mbiemri"></input></br>
+<br/><input id="input1" class="form" id="email" type="email" placeholder="E-mail" name="Email" size="39" ></input><br/>
+<br/><input id="input1" class="form"  type="text" placeholder="Subjekti" name="Subject" size="39" required ></input></br>
+<br/><textarea id="input1" class="form" name="Message" placeholder="Ju lutem jepni mesazhin tuaj" rows="5" cols="39" required></textarea></br/>
+<br/><input id="sub" title="input1" class="form2" type="submit" value="Paraqit" name="Submit" required></input></p>
                     </td>
                 </tr>
 

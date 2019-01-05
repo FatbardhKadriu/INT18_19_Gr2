@@ -12,7 +12,9 @@ body {
   <script src="js/jquery-3.3.1.min.js"></script>
   <script>
     $(document).ready(function(){
- 
+ $("#lajmiKryesor").hover(function(){
+    alert("Keni kaluar mbi lajmin kryesor");
+  });
   $('input[id]').focus(function(){
     $(this).css("background-color","#660033");
   });
@@ -91,7 +93,7 @@ body {
 	<img src="Images/2.jpg" width="440" height="400" alt="Foto ne kufi" title="Foto ne kufi">
 			</td>
 			<td >
-				<h1 style="margin-left: 45px;font-size: 70px;margin-top: 80px;">Kosova i <mark>shpalle lufte</mark> ekonomike Serbise</h1></td>
+				<h1 id="lajmiKryesor" style="margin-left: 45px;font-size: 70px;margin-top: 80px;">Kosova i <mark>shpalle lufte</mark> ekonomike Serbise</h1></td>
 				<tr><td><br>
           <article>
           <header>
