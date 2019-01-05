@@ -58,9 +58,28 @@ tr:hover
 </table>
 <p>Lojtarët më të mirë: </p>
 <p id="demo01">Lojtarët</p>
+<p>Trajnerët më të mirë :</p>
+<p id="demo"></p>
 <script type="text/javascript">
 	var Lojtarët=["Marcelo", "Salah","Icardi","Messi"];
+
 	document.getElementById("demo01").innerHTML=Lojtarët;
+	Lojtarët.pop();
+	document.getElementById("demo01").innerHTML=Lojtarët;
+	Lojtarët.push("Ronaldo");
+	document.getElementById("demo01").innerHTML=Lojtarët;
+	var Trajneret, text, fLen, i;
+Trajneret = ["Santiago Solari", "Allegri", "Mourinho", "Zola"];
+fLen = Trajneret.length;
+
+text = "<ul>";
+for (i = 0; i < fLen; i++) {
+  text += "<li>" + Trajneret[i] + "</li>";
+}
+text += "</ul>";
+text += "</ul>";
+
+document.getElementById("demo").innerHTML = text;
 </script>
 </body>
 </html>
