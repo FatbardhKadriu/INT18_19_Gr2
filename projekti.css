@@ -42,3 +42,9 @@ border:solid 1px #c3c3c3;
 padding:50px;
 display:none;
 }
+#example2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
