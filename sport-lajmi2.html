@@ -29,7 +29,10 @@ tr:hover
 {
   background-color: hotpink;
 }
+
+
 </style>
+
 </head>
 <body >
 
@@ -56,12 +59,16 @@ tr:hover
   </tr>
   
 </table>
+<div class="ss2">
 <p>Lojtarët më të mirë: </p>
 <p id="demo01">Lojtarët</p>
 <p>Trajnerët më të mirë :</p>
 <p id="demo03"></p>
 <p>Lojtari me note me te larte: </p>
 <p id="demo02"></p>
+<p>Dita e javës : </p>
+<p id="demo04"></p>
+</div>
 <script type="text/javascript">
 	var Lojtarët=["Marcelo", "Salah","Icardi","Messi"];
 
@@ -91,7 +98,30 @@ var person = {
 
 // Display data from the object:
 document.getElementById("demo02").innerHTML = person.fullName();
-
+var day;
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
+}
+document.getElementById("demo04").innerHTML = "Today is " + day;
 </script>
 </body>
 </html>
