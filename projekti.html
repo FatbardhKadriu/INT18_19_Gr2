@@ -26,6 +26,14 @@ $(document).ready(function(){
   {
     $(this).css("background-color","#660066");
   });
+  
+  $("#btn5").click(function(){
+    var div1=$("#animacioni");
+    div1.animate({height:'300px',opacity:'0.4'},"slow");
+    div1.animate({width:'300px',opacity:'0.8'},"slow");
+    div1.animate({height:'100px',opacity:'0.4'},"slow");
+    div1.animate({width:'100px',opacity:'0.8'},"slow");
+  });
 });
 </script>
 <script>
@@ -109,7 +117,13 @@ function clickCounter() {
 
   
 
+<button id="btn5">Animacioni ne te gjitha drejtimet</button>
+<p>Te gjitha HTML elementet kane pozicion static dhe nuk mund te levizen. Per te manipuluar me pozicionin, CSS veta e pozites (position), duhet te vendoset si relative, fixed ose absolute!</p>
 
+<div id="animacioni" style="background:#AA0000;height:100px;width:100px;position:absolute;">
+</div>
+</center>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <p>Image to use:</p>
 
@@ -177,6 +191,10 @@ ctx.fillRect(10,10,150,80);
 </style>
 
 
+<div class="newspaper">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+</div>
+<br>
 <div id="example2">
   <p>You can also define the color of the shadow. Here the shadow color is grey.</p>
 </div>
@@ -255,11 +273,8 @@ div.ex2 {
 <div id="div2" style="width:80px;height:80px;background-color:green;"></div>
 <br>
 <div id="div3" style="width:80px;height:80px;background-color:blue;"></div>
-</center>
 
-<div class="newspaper">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
-</div>
+
 <br><br><br>
 
 </body>
