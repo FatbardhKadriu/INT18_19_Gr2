@@ -122,6 +122,15 @@ switch (new Date().getDay()) {
     day = "Saturday";
 }
 document.getElementById("demo04").innerHTML = "Today is " + day;
+function reverse(word){
+	var res="";
+
+	for (var i = word.length-1 ; i >= 0; i--) {
+	     res = res + word.charAt(i);
+	}
+	return res;
+}
+document.write(reverse("Saturday"));
 </script>
 </body>
 </html>
