@@ -1,6 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!DOCTYPE html>
+<html>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#svg").mouseenter(function(){
+    alert("Keni hyre ne elementin svg");
+  });
+  $("#svg").mouseleave(function(){
+    alert("Jeni larguar nga elementi svg");
+  });
+  $("#svg").hover(function(){
+    alert("Keni kaluar mbi elementin svg");
+  });
+  $("input").focus(function(){
+    $(this).css("background-color","#F3C");
+  });
+  $("input").focus(function(){
+    $(this).css("color","white");
+  });
+  
+  $("input").blur(function()
+  {
+    $(this).css("background-color","#660066");
+  });
+});
+
+</script>
 
 <style type="text/css">
 #example2 {
@@ -11,13 +39,10 @@
 
 </style>
 
-
-
-
-
   <title>Plotesimi i kerkesave</title>
   <style type="text/css"></style>
   <link rel="stylesheet" type="text/css" href="projekti.css">
+
 </head>
 <body>
   <a  style="font-size:20px;color:white;" href="index.html">Kthehu n&euml; faq&euml;n kryesore</a><br><br>
@@ -33,7 +58,7 @@
  
 <br><br>
   
-<h3 style="margin-left: 310px;">SVG</h3>
+<h3 id="svg" style="margin-left: 310px;">SVG</h3>
 <svg width="200" height="200">
   <circle cx="100" cy="120" r="65" stroke="yellow" stroke-width="4" fill="purple" />
 </svg>
