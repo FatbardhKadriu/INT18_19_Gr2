@@ -4,7 +4,7 @@
   <title>Kontakti</title>
   <style type="text/css">
 body{
- background: url(Images/bg1.jpg) repeat-x;
+ background: url(../Images//bg1.jpg) repeat-x;
 background-attachment: fixed;
 background-height:100%;
 }
@@ -51,7 +51,7 @@ color:white;
 <meta charset="UTF-8">
 
         <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
-        <link rel="icon" href="Images/icon2.jgp" />
+        <link rel="icon" href="../Images//icon2.jgp" />
         <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
         <link rel="stylesheet" href="css/kontakti.css" type="text/css" media="all">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -66,7 +66,11 @@ color:white;
   });
   $('input[id]').blur(function()
   {
-    $(this).css("background-color","black");
+    $(this).css("background-color","pink");
+  });
+  $('input[id]').blur(function()
+  {
+    $(this).css("color","black");
   });
   $("textarea").focus(function(){
     $(this).css("background-color","#660033")
@@ -75,10 +79,10 @@ color:white;
     $(this).css("color","white")
   });
   $("textarea").blur(function(){
-    $(this).css("background-color","black")
+    $(this).css("background-color","pink")
   });
   $("textarea").blur(function(){
-    $(this).css("color","white")
+    $(this).css("color","black")
   });
 
 });
@@ -96,6 +100,7 @@ function drop(ev) {
     ev.target.appendChild(document.getElementById(data));
 }
 </script>
+
     </head>
     
     <!-- Header fillon ketu -->
@@ -105,11 +110,11 @@ function drop(ev) {
   <div class="kutiatransparente">
   <p style="color:white;background-color:darkmagenta;">Nese deshironi te kontaktoni me ne, mund te na vizitoni ne objektin tone ose thjeshte mund te na shkruani mesazh me poshte.</p>
   <fieldset><legend><h2>Kontakti</h2></legend>
-  <p><img src="Images/map.png" width="40px" height="25px" alt="lokacioni">Rr.Agim Ramadani - Prishtine FIEK</p>
-  <p><img src="Images/phone.png" width="40px" height="25px" alt="telefoni">  + 377 44 123 456</p>
-<p><img src="Images/envelope.png" width="40px" height="25px" alt="emaili">
+  <p><img src="../Images//map.png" width="40px" height="25px" alt="lokacioni">Rr.Agim Ramadani - Prishtine FIEK</p>
+  <p><img src="../Images//phone.png" width="40px" height="25px" alt="telefoni">  + 377 44 123 456</p>
+<p><img src="../Images//envelope.png" width="40px" height="25px" alt="emaili">
   info@news24.com</p>
-  <p><img src="Images/globe.png" width="40px" height="25px" alt="website">
+  <p><img src="../Images//globe.png" width="40px" height="25px" alt="website">
   www.news24.ueuo.org</p></fieldset>
     <p style="color:white;background-color:darkmagenta;">Jepni te dhenat tuaja dhe pastaj na shkruani mesazh!</p>
   <form name="myForm" action="" autocomplete="on">
@@ -132,15 +137,15 @@ function drop(ev) {
 <p id="demo"></p>
 
 <div id="div1" style="width:500px;height:300px;border:3px solid darkmagenta;" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img src="Images/map1.png" width="495" height="295" draggable="true" ondragstart="drag(event)" id="drag1"></div><br /><br />
+  <img src="../Images//map1.png" width="495" height="295" draggable="true" ondragstart="drag(event)" id="drag1"></div><br /><br />
 <div id="div2" style="width:500px;height:300px;border:3px solid darkmagenta; resize:both;overflow:auto;" ondrop="drop(event)" ondragover="allowDrop(event)"></div></div>
   <footer style="padding:8px;font-size:15px;font-weight:bold;text-align:center;background:Darkmagenta;color:white;font-family:"helvetica neue", sans-serif;letter-spacing:1px;">
                     <p>Shperndajeni faqen tone:</p>
-    <img src="Images/email_32.png" alt="Dergojani dikujt ne Email"/>
-    <img src="Images/facebook_32.png" alt="Shperndajeni ne Facebook"/>
-    <img src="Images/twitter_32.png" alt="Shperndajeni ne Twitter"/>
-    <img src="Images/rss_32.png" alt="RSS"/>
-    <img src="Images/flickr_32.png" alt="Shperndajeni ne Flickr"/>
+    <img src="../Images//email_32.png" alt="Dergojani dikujt ne Email"/>
+    <img src="../Images//facebook_32.png" alt="Shperndajeni ne Facebook"/>
+    <img src="../Images//twitter_32.png" alt="Shperndajeni ne Twitter"/>
+    <img src="../Images//rss_32.png" alt="RSS"/>
+    <img src="../Images//flickr_32.png" alt="Shperndajeni ne Flickr"/>
     <p>Te gjitha te drejtat e rezervuara.</p>
                    </footer>
 </body><script>

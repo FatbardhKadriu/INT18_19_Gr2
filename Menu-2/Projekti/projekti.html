@@ -3,7 +3,7 @@
 <head>
 <!DOCTYPE html>
 <html>
-<script src="js/jquery-3.3.1.min.js"></script>
+<script src="../../js/jquery-3.3.1.min.js"></script>
 <script> 
 $(document).ready(function(){
   $("#flip").click(function(){
@@ -24,22 +24,10 @@ $(document).ready(function(){
   $("#svg").hover(function(){
     alert("Keni kaluar mbi elementin svg");
   });
-  $("input").focus(function(){
-    $(this).css("background-color","#F3C");
-  });
-  $("input").focus(function(){
-    $(this).css("color","white");
-  });
-  
-  $("input").blur(function()
-  {
-    $(this).css("background-color","#660066");
-  });
-  
   $("#btn5").click(function(){
     var div1=$("#animacioni");
-    div1.animate({height:'300px',opacity:'0.4'},"slow");
-    div1.animate({width:'300px',opacity:'0.8'},"slow");
+    div1.animate({height:'250px',opacity:'0.4'},"slow");
+    div1.animate({width:'250px',opacity:'0.8'},"slow");
     div1.animate({height:'100px',opacity:'0.4'},"slow");
     div1.animate({width:'100px',opacity:'0.8'},"slow");
   });
@@ -47,20 +35,20 @@ $(document).ready(function(){
 </script>
 <script>
 $(document).ready(function(){
-  $("button").click(function(){
+  $("#btn1").click(function(){
     $("#div1").fadeToggle();
     $("#div2").fadeToggle("fast");
     $("#div3").fadeToggle(2000);
   });
   $("#btn2").click(function(){
-    $("#div1").fadeiIn(4000);
-    $("#div2").fadeiIn(4000);
-    $("#div3").fadeiIn(4000);
+    $("#div1").fadeIn(4000);
+    $("#div2").fadeIn(4000);
+    $("#div3").fadeIn(4000);
   });
    $("#btn3").click(function(){
-    $("#div1").fadeiOut(5000);
-    $("#div2").fadeiOut(5000);
-    $("#div3").fadeiOut(5000);
+    $("#div1").fadeOut(500);
+    $("#div2").fadeOut(500);
+    $("#div3").fadeOut(500);
   });
 });
 </script>
@@ -80,7 +68,7 @@ $(document).ready(function(){
 
 </head>
 <body>
-  <a  style="font-size:20px;color:white;" href="index.html">Kthehu n&euml; faq&euml;n kryesore</a><br><br>
+  <a  style="font-size:20px;color:white;" href="../../index.html">Kthehu n&euml; faq&euml;n kryesore</a><br><br>
   
   <div id="example1">
  <header class="shadow" style="text-align: center;font-size: 40px;color:lightblue">Plot&euml;simi i k&euml;rkesave t&euml; projektit</headerx>
@@ -129,18 +117,14 @@ function clickCounter() {
 <div id="panel">Nice</div>
 <br>
 
-<button id="btn5">Animacioni ne te gjitha drejtimet</button>
-<p>Te gjitha HTML elementet kane pozicion static dhe nuk mund te levizen. Per te manipuluar me pozicionin, CSS veta e pozites (position), duhet te vendoset si relative, fixed ose absolute!</p>
 
-<div id="animacioni" style="background:#AA0000;height:100px;width:100px;position:absolute;">
-</div>
 </center>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <p>Image to use:</p>
 
 <img id="m" width="220" height="277"
-src="Images/night.jpg" >
+src="../../Images/night.jpg" >
 
 <p>Canvas:</p>
 
@@ -180,9 +164,9 @@ ctx.fillRect(10,10,150,80);
 #borderimg1 { 
   border: 10px solid transparent;
   padding: 15px;
-  -webkit-border-image: url(Images/25.png) 30 round; /* Safari 3.1-5 */
-  -o-border-image: url(Images/25.png) 30 round; /* Opera 11-12.1 */
-  border-image: url(Images/25.png) 30 round;
+  -webkit-border-image: url(../../Images/25.png) 30 round; /* Safari 3.1-5 */
+  -o-border-image: url(../../Images/25.png) 30 round; /* Opera 11-12.1 */
+  border-image: url(../../Images/25.png) 30 round;
 }
 
 </style>
@@ -195,7 +179,7 @@ ctx.fillRect(10,10,150,80);
 #example1 {
   border: 10px double black;
   padding: 25px;
-  background:url(Images/pr1.png),url(Images/pr2.png);
+  background:url(../../Images/pr1.png),url(../../Images/pr2.png);
   background-repeat: no-repeat;
   background-origin: padding-box;
 }
@@ -208,7 +192,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 </div>
 <br>
 <div id="example2">
-  <p>Gjithashtu munnd te ndryshosh ngjyren e hijes</p>
+  <p>Box-shadow<br>Gjithashtu munnd te ndryshosh ngjyren e hijes</p>
 </div>
 <br>
 <br>
@@ -217,8 +201,8 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 #grad10 {
   height: 150px;
   width: 200px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: radial-gradient(red, yellow, green); /* Standard syntax (must be last) */
+  background-color: black; /* For browsers that do not support gradients */
+  background-image: radial-gradient(white, yellow, black); /* Standard syntax (must be last) */
 }
 </style>
 
@@ -230,30 +214,34 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
     <style> 
 div.ex1 {
   color:black;
+  font-size: 30px;
   margin: 20px;
   border: 1px solid black;
-  background-color: yellow;
-  outline: 4px solid red;
+  background-color: green;
+  outline: 4px solid lightgreen;
   outline-offset: 15px;
+  font-weight: bold;
 } 
 
 div.ex2 {
+  font-size: 30px;
   color:black;
+  font-weight: bold;
   margin: 10px;
   border: 1px solid black;
-  background-color: yellow;
-  outline: 5px dashed blue;
-  outline-offset: 5px;
+  background-color: brown;
+  outline: 5px dashed red;
+  outline-offset: 10px;
 } 
 </style>
 
 
 
 
-<div class="ex1">shembull</div>
+<div class="ex1">Div me outline 4px, ngjyre lightgreen,dhe outline-offset 15px</div>
 <br>
 
-<div class="ex2">shembull</div>
+<div class="ex2">Div me outline 5px dashed me ngjyre te kuqe,dhe outline offset 10px</div>
 
 <style> 
 .newspaper {
@@ -265,16 +253,21 @@ div.ex2 {
   column-gap: 40px;
   -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
   -moz-column-rule-style: solid; /* Firefox */
-  column-rule-style: solid;
+  column-rule-style: dashed;
   -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
   -moz-column-rule-width: 1px; /* Firefox */
   column-rule-width: 10px;
 }
-</style>
+</style><br><br>
+<button id="btn5">Animacioni ne te gjitha drejtimet</button>
+<p>Te gjitha HTML elementet kane pozicion static dhe nuk mund te levizen. Per te manipuluar me pozicionin, CSS veta e pozites (position), duhet te vendoset si relative, fixed ose absolute!</p>
+
+<div id="animacioni" style="background:#AA0000;height:100px;width:100px;position:absolute;">
+</div>
 <center>
 <h1 >Demonstrimi i fadeToggle() me parametra te ndryshem.</h1>
 
-<button>Klikoni per te shfaqur/larguar figurat me funksionin toggle</button>
+<button id="btn1">Klikoni per te shfaqur/larguar figurat me funksionin toggle</button>
 <button id="btn2">Klikoni per te shfaqur figurat me funksionin fade in</button>
 <button id="btn3">Klikoni per te larguar figurat me funksionin fade out</button>
 <br><br>

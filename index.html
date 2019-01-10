@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html manifest="http://news24.eu5.org.appcache">
+<html manifest="http://news24.ueuo.com.appcache">
 <font face="century">
 <head>
   <style>
@@ -13,11 +13,11 @@ function myFunction() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Shiko me shume"; 
+    btnText.innerHTML = "Shiko më shumë"; 
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Lexo me pak"; 
+    btnText.innerHTML = "Lexo më pak"; 
     moreText.style.display = "inline";
   }
 }
@@ -27,11 +27,11 @@ function myFunction1() {
   var btnText = document.getElementById("myBtnn");
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Shiko me shume"; 
+    btnText.innerHTML = "Shiko më shumë"; 
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Lexo me pak"; 
+    btnText.innerHTML = "Lexo më pak"; 
     moreText.style.display = "inline";
   }
 }
@@ -71,12 +71,6 @@ body {
     $(this).css("color","white")
   });
 
-  $("#shfaq").click(function(){
-    alert("Emri dhe mbiemri: " + $("#input1").val());
-     alert("Email: " + $("#input2").val());
-     alert("Subjekti: " + $("#input3").val());
-     alert("Mesazhi: " + $("#input4").val());
-  });
 });
  
   </script>
@@ -99,7 +93,7 @@ body {
       <article>
 <li style="color:white;"><a href="#" onclick="openRegjistrohu()" target="_blank">REGJISTROHU</a>|</li>
 <li style="color:white;"><a href="#" onclick="openKyqu()"target="_blank">KY&Ccedil;U</a>|</li>
-<li style="color:white;"><a href="zhvilluesit.html" target="_blank">ZHVILLUESIT</a>|</li>
+<li style="color:white;"><a href="Menu-1/Zhvilluesit/zhvilluesit.html" target="_blank">ZHVILLUESIT</a>|</li>
 <li style="color:white;"><a href="https://www.rss.com" target="_blank">RSS FEEDS</a></li>
 </ul>
 </div>
@@ -121,11 +115,11 @@ body {
 <div class="row2">
 <ul class="main-nav-2">
 <li><a href="#">FAQJA KRYESORE</a></li>
-<li><a href="Sport.html">SPORT</a></li>
-<li><a href="ekonomi.html">EKONOMI</a></li>
-<li><a href="teknologji.html">TEKNOLOGJI</a></li>
-<li><a href="fun.html">FUN</a></li>
-<li><a href="projekti.html">PROJEKTI</a></li>
+<li><a href="Menu-2/Sport/Sport.html">SPORT</a></li>
+<li><a href="Menu-2/Ekonomi/ekonomi.html">EKONOMI</a></li>
+<li><a href="Menu-2/Teknologji/teknologji.html">TEKNOLOGJI</a></li>
+<li><a href="Menu-2/Fun/fun.html">FUN</a></li>
+<li><a href="Menu-2/Projekti/projekti.html">PROJEKTI</a></li>
 </ul>
 </div>
 <table >
@@ -135,7 +129,7 @@ body {
 	<img src="Images/2.jpg" width="440" height="400" alt="Foto ne kufi" title="Foto ne kufi">
 			</td>
 			<td >
-				<h1 id="lajmiKryesor" style="margin-left: 45px;font-size: 70px;margin-top: 80px;">Kosova i <mark>shpalle lufte</mark> ekonomike Serbise</h1></td>
+				<h1 id="lajmiKryesor" style="margin-left: 85px;font-size: 70px;margin-top: 80px;">Kosova i shpalle lufte ekonomike Serbise</h1></td>
 				<tr><td><br>
           <article>
           <header>
@@ -171,7 +165,7 @@ body {
  </pre></p></td><td rowspan="2"><img src="Images/c.png" width="80px" height="80px" align="left"><br><p><b>Albin Qerimi - Student</b></p><br/><p class="newLine"><br/><br/>Une e ndjek kete portal vazhdimisht dhe ajo qe me pelqen me se shumti te ky portal eshte qe nuk poston lajme te rrejshme sa per te fituar klikime,<span id="dots">...</span><span id="more"> mirepo per ti sherbyer te tjerve </span></p>
 
 			<p align="right">
-                <br/><br/><a href="#dd" style="color:red" onclick="myFunction()" id="myBtn">Shiko me shume</a>	</p></td>
+                <br/><br/><a href="#dd" style="color:red" onclick="myFunction()" id="myBtn">Shiko m&euml; shum&euml;</a>	</p></td>
 		</tr>
 		<tr><td><p><img src="Images/9.png" width="64px" height="64px" align="left"><pre style="font-size: 15px">  <b><u>S Sprint</b></u>  Zyra Qendrore:<address>
   Lagjja Ulpiana Rr. "Agim Ramadani" nr. 14
@@ -195,7 +189,7 @@ body {
 		</tr>
 		<tr>
 
-			<td><a href="Kontakti.html" style="float: right; color: red">Lexo m&euml; shum&euml;</a></td>
+			<td><a href="Kontakti/Kontakti.html" style="float: right; color: red">Lexo m&euml; shum&euml;</a></td>
 			
 
 		</tr>
@@ -275,11 +269,11 @@ body {
                     </td>
                     <td rowspan="2">
                     	<form action="#" method="post" onsubmit="return checkforblank()"><br/><br/>
-<input id="input1" class="form" id="EmriMbiemri" type="text" name="EmriMbiemri" size=39 placeholder="Emri dhe mbiemri" required></input></br>
-<br/><input id="input2" required class="form" id="email" type="email" placeholder="E-mail" name="Email" size="39" ></input><br/>
-<br/><input id="input3" class="form"  type="text" placeholder="Subjekti" name="Subject" size="39" required ></input></br>
-<br/><textarea id="input4" class="form" name="Message" placeholder="Ju lutem jepni mesazhin tuaj" rows="5" cols="39" required></textarea></br/>
-<br/><input id="sub"  class="form2" type="submit" value="Paraqit" name="Submit" ></input><input id="shfaq"  class="form2" type="submit" value="Shfaq te dhenat" name="shfaq" ></input></p>
+<input  class="form" id="EmriMbiemri" type="text" name="EmriMbiemri" size=39 placeholder="Emri dhe mbiemri" ></input></br>
+<br/><input   class="form" id="email" type="email" placeholder="E-mail" name="Email" size="39" ></input><br/>
+<br/><input  id="subjekti" class="form"  type="text" placeholder="Subjekti" name="Subject" size="39"  ></input></br>
+<br/><textarea  class="form" name="Message" placeholder="Ju lutem jepni mesazhin tuaj" rows="5" cols="39" required></textarea></br/>
+<br/><input id="sub"  class="form2" type="submit" value="Paraqit" name="Submit" ></input></p>
 
                     </td>
                 </tr>
